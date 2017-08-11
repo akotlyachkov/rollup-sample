@@ -1,0 +1,12 @@
+{
+    "name": "rollup",
+    "version": "0.0.1",
+    "scripts": {
+        "rollup1": "rollup index.js --format iife --output build/script.js",
+        "rollup": "rollup --config rollup.config.js",
+        "start": "static"
+    },
+    "dependencies": {
+        "jquery": "latest"
+    }
+}
